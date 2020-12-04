@@ -1,5 +1,8 @@
+//variables
 let maxValue = 0;
 let minValue = 0;
+
+//gets maximum value
 function GetMaximumNumber(number1, number2, number3)
 {
     if(number1>number2)
@@ -16,6 +19,8 @@ function GetMaximumNumber(number1, number2, number3)
     }
     return maxValue;
 }
+
+//gets minimum value
 function GetMinimumNumber(number1, number2, number3)
 {
     if(number1>number2)
@@ -32,6 +37,8 @@ function GetMinimumNumber(number1, number2, number3)
     }
     return minValue;
 }
+
+//random function for 3 digit value
 let number1 = Math.floor(Math.random() * 1000);
 let number2 = Math.floor(Math.random() * 1000);
 let number3 = Math.floor(Math.random() * 1000);
